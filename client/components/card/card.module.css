@@ -1,0 +1,38 @@
+.cardWrapper {
+  background-color: rgb(var(--foreground-rgb));
+  border-radius: 4px;
+  box-shadow: rgba(var(--box-shadow-rgba)) 0px 8px 24px;
+}
+
+.card {
+  display: grid;
+  gap: 10px;
+  color: black;
+}
+
+.cardItem {
+  grid-template-areas: "media title";
+  grid-template-columns: 100px;
+  grid-template-rows: 110px;
+  padding: 10px;
+}
+
+.cardTitle {
+  grid-area: title;
+}
+.row {
+  margin: 10px 10px 0;
+  border-bottom: #fafafa 2px solid;
+}
+
+.cardSubtitle {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 15px;
+}
+
+.cardHeading {
+  font-size: 14px;
+  font-weight: 400;
+}

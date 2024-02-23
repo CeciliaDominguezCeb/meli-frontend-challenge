@@ -1,0 +1,14 @@
+.breadcrumb {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: rgb(var(--color-secondary-rgb));
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.breadcrumb li:not(:first-child)::before {
+  content: ">";
+  margin-right: 8px;
+}

@@ -1,0 +1,63 @@
+.cardHeading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cardSubtitle {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cardBody {
+  grid-area: body;
+}
+
+.cardBodyTitle {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.cardBodyP {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(var(--color-secondary-100-rgb));
+  line-height: 15px;
+  text-wrap: wrap;
+  word-break: normal;
+}
+
+.cardWrapper {
+  background-color: rgb(var(--foreground-rgb));
+  border-radius: 4px;
+  box-shadow: rgba(var(--box-shadow-rgba)) 0px 8px 24px;
+}
+
+.card {
+  display: grid;
+  gap: 10px;
+  color: black;
+}
+.cardDetail {
+  grid-template-areas:
+    "media title"
+    "media gap"
+    "media actions"
+    "body -";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: min-content 20px 40vh auto;
+  margin: 15px;
+  padding: 20px;
+}
+
+.cardActions {
+  grid-area: actions;
+}
+
+.cardButton {
+  background-color: rgb(var(--acent-bg-color-rgb));
+  color: rgb(var(--color-acent-rgb));
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+}

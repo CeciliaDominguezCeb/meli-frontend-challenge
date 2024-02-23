@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  width: 80vw;
+  height: 35px;
+}
+
+.form {
+  display: flex;
+  flex: auto;
+}
+
+.input {
+  flex: auto;
+}
+
+.button {
+  width: 50px;
+}
+
+.header {
+  background-color: rgb(var(--primary-color-rgb));
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 15px;
+}
