@@ -17,5 +17,5 @@ Desde la carpeta server
 
 
 Desde la carpeta client
-
+    npm i
     npm run dev
